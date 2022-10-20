@@ -1,0 +1,29 @@
+.gridBox{
+    width: 65px;
+    height: 65px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: pink;
+    border-radius: 0.5em;
+}
+.leftSide{
+    margin: 0;
+    font-size: 13px;
+    margin-left: 3px;
+}
+.leftSide>p{
+    margin: 0;
+}
+.rightSide{
+    font-size: 12px;
+/* margin-left: 2px; */
+text-align: center;
+}
+.rightSide>p{
+    margin: 0;
+    margin-top: 3.5px;
+    font-weight: bold;
+}
+.gridBox>p{
+    margin: 0;
+}
